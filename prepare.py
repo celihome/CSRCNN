@@ -62,14 +62,12 @@ def eval(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    # parser.add_argument('--images-dir', type=str, default='Set5')#Set5 BLAH_BLAH/91-images-aug
-    parser.add_argument('--images-dir', type=str, default='BSD200')
-    # parser.add_argument('--output-path', type=str, default='BLAH_BLAH/Set5_x8.h5')
-    parser.add_argument('--output-path', type=str, default='BLAH_BLAH/BSD200_x2.h5')
-    parser.add_argument('--scale', type=int, default=2)
-    parser.add_argument('--patch-size', type=int, default=17)#17
-    parser.add_argument('--stride', type=int, default=13)#13
-    parser.add_argument('--eval', type=bool,default=True)#'--eval',action='store_true'#'--eval', type=bool,default=False训练用False,测试用True
+    parser.add_argument('--images-dir', type=str, default= )
+    parser.add_argument('--output-path', type=str, default= )
+    parser.add_argument('--scale', type=int, default= )
+    parser.add_argument('--patch-size', type=int, default= )
+    parser.add_argument('--stride', type=int, default= )
+    parser.add_argument('--eval', type=bool,default= )
     args = parser.parse_args()
 
     if not args.eval:
