@@ -14,6 +14,7 @@ The  dataset converted to HDF5 can be downloaded from the links below.
 [Link](https://pan.baidu.com/s/1WfyVfTki3UNZlNDJv_nUfw) code: r3u7 |
 
 run prepare.py
+
 run train.py
 
 ## Test
